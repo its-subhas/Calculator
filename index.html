@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="mainDiv">
+      <div id="displayDiv">
+        <input type="text" placeholder="0" id="display" readonly />
+      </div>
+
+      <div id="buttonDiv">
+        <div>
+          <button
+            class="o"
+            onclick="cd = '';document.querySelector('#display').value = cd;"
+          >
+            AC
+          </button>
+          <button
+            onclick="cd += '7';document.querySelector('#display').value = cd;"
+          >
+            7
+          </button>
+          <button
+            onclick="cd += '4';document.querySelector('#display').value = cd;"
+          >
+            4
+          </button>
+          <button
+            onclick="cd += '1';document.querySelector('#display').value = cd;"
+          >
+            1
+          </button>
+          <button
+            onclick="cd += '00';document.querySelector('#display').value = cd;"
+          >
+            00
+          </button>
+        </div>
+        <div>
+          <button
+            class="o"
+            onclick="cd = cd.slice(0,cd.length - 1);document.querySelector('#display').value = cd;"
+          >
+            DE
+          </button>
+          <button
+            onclick="cd += '8';document.querySelector('#display').value = cd;"
+          >
+            8
+          </button>
+          <button
+            onclick="cd += '5';document.querySelector('#display').value = cd;"
+          >
+            5
+          </button>
+          <button
+            onclick="cd += '2';document.querySelector('#display').value = cd;"
+          >
+            2
+          </button>
+          <button
+            onclick="cd += '0';document.querySelector('#display').value = cd;"
+          >
+            0
+          </button>
+        </div>
+        <div>
+          <button
+            class="o"
+            onclick="cd += '%';document.querySelector('#display').value = cd;"
+          >
+            %
+          </button>
+          <button
+            onclick="cd += '9';document.querySelector('#display').value = cd;"
+          >
+            9
+          </button>
+          <button
+            onclick="cd += '6';document.querySelector('#display').value = cd;"
+          >
+            6
+          </button>
+          <button
+            onclick="cd += '3';document.querySelector('#display').value = cd;"
+          >
+            3
+          </button>
+          <button
+            class="o"
+            onclick="cd += '.';document.querySelector('#display').value = cd;"
+          >
+            .
+          </button>
+        </div>
+        <div>
+          <button
+            class="o"
+            onclick="cd += '/';document.querySelector('#display').value = cd;"
+          >
+            /
+          </button>
+          <button
+            class="o"
+            onclick="cd += '*';document.querySelector('#display').value = cd;"
+          >
+            *
+          </button>
+          <button
+            class="o"
+            onclick="cd += '-';document.querySelector('#display').value = cd;"
+          >
+            -
+          </button>
+          <button
+            class="o"
+            onclick="cd += '+';document.querySelector('#display').value = cd;"
+          >
+            +
+          </button>
+          <button
+            class="oe"
+            onclick="cd = eval(cd);document.querySelector('#display').value = cd;"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
