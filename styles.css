@@ -82,3 +82,238 @@ button:hover {
   transition-delay: 0;
   border: 2px solid black;
 }
+@media screen and (max-width: 429.9px) {
+  #display {
+    height: 75px;
+    font-size: xx-large;
+  }
+  button {
+    height: 85px;
+    width: 85px;
+    font-size: xx-large;
+    justify-content: space-evenly;
+  }
+
+  @media screen and (max-width: 390px) {
+    #display {
+      height: 70px;
+      font-size: xx-large;
+    }
+    button {
+      height: 80px;
+      width: 80px;
+      font-size: xx-large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 370px) {
+    #display {
+      height: 65px;
+      font-size: xx-large;
+    }
+    button {
+      height: 75px;
+      width: 75px;
+      font-size: xx-large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    #display {
+      height: 60px;
+      font-size: xx-large;
+    }
+    button {
+      height: 70px;
+      width: 70px;
+      font-size: xx-large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    #display {
+      height: 55px;
+      font-size: x-large;
+    }
+    button {
+      height: 65px;
+      width: 65px;
+      font-size: x-large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 310px) {
+    #display {
+      height: 50px;
+      font-size: x-large;
+    }
+    button {
+      height: 60px;
+      width: 60px;
+      font-size: x-large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 290px) {
+    #display {
+      height: 45px;
+      font-size: x-large;
+    }
+    button {
+      height: 55px;
+      width: 55px;
+      font-size: x-large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 270px) {
+    #display {
+      height: 40px;
+      font-size: x-large;
+    }
+    button {
+      height: 50px;
+      width: 50px;
+      font-size: x-large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 250px) {
+    #display {
+      height: 35px;
+      font-size: large;
+    }
+    button {
+      height: 45px;
+      width: 45px;
+      font-size: large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 230px) {
+    #display {
+      height: 30px;
+      font-size: large;
+    }
+    button {
+      height: 40px;
+      width: 40px;
+      font-size: large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 210px) {
+    #display {
+      height: 25px;
+      font-size: large;
+    }
+    button {
+      height: 35px;
+      width: 35px;
+      font-size: large;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 190px) {
+    #display {
+      height: 20px;
+      font-size: small;
+    }
+    button {
+      height: 30px;
+      width: 30px;
+      font-size: small;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 170px) {
+    #display {
+      height: 15px;
+      font-size: smaller;
+    }
+    #buttonDiv {
+      margin-top: 6px;
+    }
+    button {
+      height: 25px;
+      width: 25px;
+      font-size: x-small;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 150px) {
+    #display {
+      height: 10px;
+      font-size: x-small;
+    }
+    #buttonDiv {
+      margin-top: 6px;
+    }
+    button {
+      height: 20px;
+      width: 20px;
+      font-size: xx-small;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 130px) {
+    #display {
+      height: 5px;
+      font-size: xx-small;
+    }
+    #buttonDiv {
+      margin-top: 3px;
+    }
+    button {
+      height: 15px;
+      width: 15px;
+      font-size: 5px;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 110px) {
+    #display {
+      height: 2.5px;
+      font-size: xx-small;
+    }
+    #buttonDiv {
+      margin-top: 3px;
+    }
+    button {
+      height: 10px;
+      width: 10px;
+      font-size: 2.5px;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 90px) {
+    #display {
+      height: 2.5px;
+      font-size: xx-small;
+    }
+    #buttonDiv {
+      margin-top: 3px;
+    }
+    button {
+      height: 5px;
+      width: 5px;
+      font-size: 2.5px;
+      justify-content: space-evenly;
+    }
+  }
+  @media screen and (max-width: 70px) {
+    #display {
+      height: 2.5px;
+      font-size: xx-small;
+    }
+    #buttonDiv {
+      margin-top: 3px;
+    }
+    button {
+      height: 2.5px;
+      width: 2.5px;
+      font-size: 1.25px;
+      justify-content: space-evenly;
+    }
+  }
+}
