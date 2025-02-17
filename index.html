@@ -141,9 +141,9 @@
           </button>
           <button
             class="o"
-            onclick="if (cd === '' || cd === '0') {
-              cd = '0.'; document.querySelector('#display').value = cd;
-            } else if ( cd === '0.') {
+            onclick="if (cd === '') {
+              cd = '0'; document.querySelector('#display').value = cd;
+            } else if ( cd === '0' || cd === '0.') {
               cd = '0.'; document.querySelector('#display').value = cd;
               } else {
               cd += '.'; document.querySelector('#display').value = cd;
