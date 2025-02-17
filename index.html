@@ -21,22 +21,38 @@
             AC
           </button>
           <button
-            onclick="cd += '7';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '7'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '7'; document.querySelector('#display').value = cd;
+              }"
           >
             7
           </button>
           <button
-            onclick="cd += '4';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '4'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '4'; document.querySelector('#display').value = cd;
+              }"
           >
             4
           </button>
           <button
-            onclick="cd += '1';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '1'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '1'; document.querySelector('#display').value = cd;
+              }"
           >
             1
           </button>
           <button
-            onclick="cd += '00';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '0'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '00'; document.querySelector('#display').value = cd;
+              }"
           >
             00
           </button>
@@ -44,27 +60,43 @@
         <div>
           <button
             class="o"
-            onclick="cd = cd.slice(0,cd.length - 1);document.querySelector('#display').value = cd;"
+            onclick="cd = cd.slice(0,cd.length - 1); document.querySelector('#display').value = cd;"
           >
             DE
           </button>
           <button
-            onclick="cd += '8';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '8'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '8'; document.querySelector('#display').value = cd;
+              }"
           >
             8
           </button>
           <button
-            onclick="cd += '5';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '5'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '5'; document.querySelector('#display').value = cd;
+              }"
           >
             5
           </button>
           <button
-            onclick="cd += '2';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '2'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '2'; document.querySelector('#display').value = cd;
+              }"
           >
             2
           </button>
           <button
-            onclick="cd += '0';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '0'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '0'; document.querySelector('#display').value = cd;
+              }"
           >
             0
           </button>
@@ -72,22 +104,38 @@
         <div>
           <button
             class="o"
-            onclick="cd += '%';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '0'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '%'; document.querySelector('#display').value = cd;
+              }"
           >
             %
           </button>
           <button
-            onclick="cd += '9';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '9'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '9'; document.querySelector('#display').value = cd;
+              }"
           >
             9
           </button>
           <button
-            onclick="cd += '6';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '6'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '6'; document.querySelector('#display').value = cd;
+              }"
           >
             6
           </button>
           <button
-            onclick="cd += '3';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '3'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '3'; document.querySelector('#display').value = cd;
+              }"
           >
             3
           </button>
@@ -101,25 +149,41 @@
         <div>
           <button
             class="o"
-            onclick="cd += '/';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '0'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '/'; document.querySelector('#display').value = cd;
+              }"
           >
             /
           </button>
           <button
             class="o"
-            onclick="cd += '*';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '0'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '*'; document.querySelector('#display').value = cd;
+              }"
           >
             *
           </button>
           <button
             class="o"
-            onclick="cd += '-';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '0'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '-'; document.querySelector('#display').value = cd;
+              }"
           >
             -
           </button>
           <button
             class="o"
-            onclick="cd += '+';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '0'; document.querySelector('#display').value = cd;
+            } else {
+              cd += '+'; document.querySelector('#display').value = cd;
+              }"
           >
             +
           </button>
