@@ -141,7 +141,11 @@
           </button>
           <button
             class="o"
-            onclick="cd += '.';document.querySelector('#display').value = cd;"
+            onclick="if (cd === '' || cd === '0') {
+              cd = '0.';  document.querySelector('#display').value = cd;
+            } else if (!cd.includes('.')) {
+              cd += '.';  document.querySelector('#display').value = cd;
+            };"
           >
             .
           </button>
